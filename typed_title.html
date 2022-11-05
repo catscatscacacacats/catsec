@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+        Meow
+    </title>
+  </head>
+  <style>
+    body {
+      background: black;
+      background-size: cover;
+      color: #467d47;
+      text-align: center;
+    }
+
+    h2 {
+      display: inline-block;
+    }
+
+    .title {
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      animation:
+      typing 3s steps(31, end) forwards,
+      blink .6s infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: orange; }
+    }
+
+    video {
+      width: 70%;
+    }
+  </style>
+  <body>
+    <hr>
+
+    <h2>
+      <div class="title">
+        ALL YOUR BASE ARE BELONG TO US.
+      </div>
+    </h2>
+
+    <hr>
+    <video controls autoplay>
+      <source src="catsec.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <footer>
+      made with &lt;3 by catsec
+    </footer>
+  </body>
+</html>
